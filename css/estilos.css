@@ -1,0 +1,98 @@
+.body{
+  width: 70%;
+  align-items: center;
+}
+.contenedor_body{
+  background-image: url("../img/gastronomia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contenido{
+  width: 1000px;
+  background-color: rgb(202,186,186,0.9);
+  opacity: 0.8;
+}
+#cabecera{
+  width: 100%;
+  align-items: center;
+}
+
+.contenedor_izq{
+  background-color: rgb(202,186,186,0.9);
+  text-align: center;
+  height: 40em;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  transition: .button.small-only-expanded
+}
+.imagen{
+  height: 80%;
+  width: 80%;
+}
+.imagen_plato{
+  height: 90%;
+  width: 90%;
+}
+h4 {
+  height: 1px;
+  background-color: grey;
+}
+.mensajes{
+  align-items: center;
+  width: 100%;
+  height: 4em;
+}
+.iconoboton{
+  width: 35px;
+}
+.bordes_mensajes{
+  border: 2px solid red;
+  border-radius: 15px;
+  width: 85%;
+  padding: 10px;
+  align-items: center;
+}
+
+ @media (max-width:900px) {
+
+     .imagen_plato{
+       width: 50%;
+       height: 250px;
+     }
+     .preparacion{
+       width: 80%;
+     }
+     .mensajes{
+       align-items: center;
+       width: 100%;
+       height: 4em;
+     }
+     .imagen{
+       width: 40px;
+       height: 40px;
+     }
+  }
+
+ @media (max-width:640px) {
+
+     .imagen_plato{
+       width: 40%;
+       height: 250px;
+     }
+     .preparacion{
+       width: 40%;
+     }
+     .mensajes{
+       align-items: center;
+       width: 50%;
+       height: 4em;
+     }
+     .imagen{
+       width: 40px;
+       height: 40px;
+     }
+  }
