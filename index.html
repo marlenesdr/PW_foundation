@@ -8,82 +8,81 @@
     <link rel="stylesheet" href="css/estilos.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="contenedor_body">  <!-- abrir contenedor body  -->
-      <div class="row contenido">          <!-- abrir contenedor body  -->
-        <header class="" id="cabecera">
-          <div class="row">
-            <div class="">
-              <div class="text-center hide-for-small-only hide-for-med-only">
+    <div class="grid-x grid-padding-x align-center">  <!-- abrir sistema de rejillas  body  -->
+      <div class="row contenido align-left aling-top">          <!-- abrir contenedor body  -->
+          <div class="row large-12">
+            <div class="column large-4 hide-for-small-only show-for-med-only">
+              <div class="column large-4 hide-for-small-only hide-for-med-only">
                 <h1>Gastronomía</h1>
               </div>
-            </div>
-          </div>
-          <div class="row hide-for-small-only">
-            <div class="columns small-order-1">
-              <div class="medium-4 columns text-right">
+              <div class="Column large-4">
                 <h5>¡Deliciosa!</h5>
               </div>
-              <h4></h4>
+            </div>
+            <div class="column large-8 hide-for-small-only hide-for-med-only">
+              <article style="border-left:2px solid grey;" class="columns small-4"><br><br><br><br></article>
             </div>
           </div>
-        </header>
-          <div class="columns">
-            <div class="row large-uncollapse">
 
-              <div class="large-3 medium-2 contenedor_izq hide-for-small-only hide-for-med-only hide-for-large-up">   <!-- contenedor izquierdo-->
+          <div class="row large-12 hide-for-small-only hide-for-med-only">
+              <div class="column large-12">
+                <h4></h4>
+              </div>
+            </div>
+      </div>
+      <div class="row contenido">
+        <div class="row">
+          <div class="large-3 hide-for-small show-for-med show-for-large contenedor_izq">   <!-- contenedor izquierdo-->
                 <div class="row">  <!-- buscar -->
-                  <div class="large-9 medium-12 columns text-center">
-                      <input type="text" name="" value="">
-                  </div>
-                  <div class="large-3 columns text-center">
-                    <a href="#" type="button"><img src="img/buscar.png" width="50%"></a>
+                  <div class="large-8 medium-12 columns text-center">
+                    <input type="search" name="search" placeholder="Search.." class="animated-search-form centrar">
                   </div>
                 </div>
-                <div class="row button-group">    <!-- botones -->
-                    <div class="large-12 medium-12 text-center">
+                <div class="row button-group centrar">    <!-- botones -->
+                    <div class="large-10 medium-12 text-center">
                       <a href="#" class="hollow button expanded">Inicio</a>
                     </div>
-                    <div class="large-12 medium-12 text-center">
+                    <div class="large-10 medium-12 text-center">
                       <a href="#" class="hollow hollow button expanded">Mi plato perfecto</a>
                     </div>
-                    <div class="large-12 medium-12">
+                    <div class="large-10 medium-12">
                       <a href="#" class="hollow hollow button expanded">Mi receta</a>
                     </div>
                 </div>
                 <br>
-                <div class="row">   <!-- favoritos -->
-                  <p>Favoritos:</p>
+                <div class="row centrar">   <!-- favoritos -->
+                  <p><br>Favoritos:</p>
                   <br>
                 </div>
-                <div class="row">
-                  <div class="large-4 medium-12 text-center">
-                    <img class="imagen" src="img/01.jpg" alt="">
+                <div class="row centrar">
+                  <div class="large-3 medium-12 text-center">
+                    <a href="#"><img class="imagen" src="img/01.jpg" alt=""></a>
                   </div>
-                  <div class="large-4 medium-12 text-center">
-                    <img class="imagen" src="img/02.jpg" alt="">
+                  <div class="large-3 medium-12 text-center">
+                    <a href="#"><img class="imagen" src="img/02.jpg" alt=""></a>
                   </div>
-                  <div class="large-4 medium-12 text-center">
-                    <img class="imagen" src="img/03.jpg" alt="">
+                  <div class="large-3 medium-12 text-center">
+                    <a href="#"><img class="imagen" src="img/03.jpg" alt=""></a>
                   </div>
                 </div>
                 <br>
-                <div class="row">
-                  <div class="large-4 medium-12 text-center">
-                    <img class="imagen" src="img/04.jpg" alt="">
+                <div class="row centrar">
+                  <div class="large-3 medium-12 text-center">
+                    <a href="#"><img class="imagen" src="img/04.jpg" alt=""></a>
+                </div>
+                  <div class="large-3 medium-12 text-center">
+                    <a href="#"><img class="imagen" src="img/05.jpg" alt=""></a>
                   </div>
-                  <div class="large-4 medium-12 text-center">
-                    <img class="imagen" src="img/05.jpg" alt="">
-                  </div>
-                  <div class="large-4 medium-12 text-center">
-                    <img class="imagen" src="img/06.jpg" alt="">
+                  <div class="large-3 medium-12 text-center">
+                    <a href="#"><img class="imagen" src="img/06.jpg" alt=""></a>
                   </div>
                 </div>
                 <br>
-                <div class="row">   <!-- favoritos -->
-                  <p>Historial:</p>
+                <div class="row centrar">   <!-- favoritos -->
+                  <p><br>Historial:</p>
                   <br>
                 </div>
-                <div class="row">
+                <div class="row centrar">
                   <div class="large-12 medium-12 text-left">
                     <p><a href="#">Resetas caseras</a></p>
                   </div>
@@ -94,17 +93,17 @@
                     <p><a href="#">Resetas de la abuela</a></p>
                   </div>
                 </div>
-            </div>
-            <div class="large-9 columns contenedor_der">
+        </div>
+        <div class="columns contenedor_der ">
                 <div class="row callout">  <!-- abre primer artículo -->
-                  <div class="large-12 small-12 medium-6 columns">
+                  <div class="large-12 small-12 medium-12 columns">
                     <h3>Mondongo</h3>
-                    <p>07/13/2019 </p>
+                    <p class="fechas">07/13/2019 </p>
                     <hr>
                     <div class="row large-uncollapse">
                       <div class="">
-                        <div class="large-12 small-12 medium-12 columns">
-                          <img src="img/01.jpg" alt="" class="imagen_plato">
+                        <div class="large-12 small-12 medium-12">
+                          <img src="img/01.jpg" alt="" class="imagen_plato centrar2">
                           <br>
                           <p class="preparacion">
                             Hacer cocer le cerdo con el ajo, pimienta, comino, ají colorado y sal, hasta que este tierno el cerdo y reserve en un recipiente.
@@ -132,33 +131,30 @@
                             </div>
                           </div>
 
-
-                          <div class="row" >
-
-                            <div class="large-12 medium-12 small-7 text-center">
-                              <div class="row bordes_mensajes align-spaced">
-                                  <div class="large-2 medium-2">
+                          <div class="row centrar2">
+                            <div class="large-12 medium-12 small-12 text-center">
+                              <div class="row bordes_mensajes">
+                                  <div class="large-2 medium-2 small-2">
                                     <img src="img/hombre.png" class="imagen" alt="">
                                   </div>
                                   <div class="">
-
                                   </div>
-                                  <div class="large-8 medium-10 text-left">
+                                  <div class="text-left">
                                     <p>Juan Perez: Muy buen blog </p>
                                   </div>
                               </div>
                               <br>
-                              <div class="row bordes_mensajes align-spaced">
-                                  <div class="large-2 medium-2">
+                              <div class="row bordes_mensajes ">
+                                  <div class="large-2 medium-2 small-2">
                                     <img src="img/mujer.png" class="imagen" alt="">
                                   </div>
-                                  <div class="large-8 medium-10">
+                                  <div class="large-8 medium-10 text-left">
                                     <p>María Torres: Felicidades,es un gran blog </p>
                                   </div>
                               </div>
                               <br>
-                              <div class="row bordes_mensajes align-spaced">
-                                  <div class="large-2 medium-2">
+                              <div class="row bordes_mensajes">
+                                  <div class="large-2 medium-2 small-2">
                                     <img src="img/mujer.png" class="imagen" alt="">
                                   </div>
                                   <div class="large-8 medium-10 text-left">
@@ -166,8 +162,6 @@
                                   </div>
                               </div>
                             </div>
-
-
                           </div>
 
                         </div>
@@ -177,16 +171,16 @@
                 </div>  <!-- cierra primer artículo -->
 
                 <div class="row callout">  <!-- abre primer artículo -->
-                  <div class="large-12 small-12 medium-6 columns">
-                    <h3>Picante mixto</h3>
-                    <p>03/10/2019 </p>
-                    <hr>
-                    <div class="row large-uncollapse">
-                      <div class="large-12 small-12 medium-12 columns">
+                    <div class="large-12 small-12 medium-12 columns">
+                      <h3>Picante mixto</h3>
+                      <p class="fechas">06/12/2019 </p>
+                      <hr>
+                      <div class="row large-uncollapse">
                         <div class="">
-                          <img src="img/02.jpg" alt="" class="imagen_plato">
-                          <br>
-                          <p class="preparacion">
+                          <div class="large-12 small-12 medium-12">
+                            <img src="img/02.jpg" alt="" class="imagen_plato centrar2">
+                            <br>
+                            <p class="preparacion">
                             Lavar la lengua y cocinarla en agua con sal hasta que esté blanda.<br>
                             Luego retirar el pellejo que la recubre. Cortarla en rodajas medianas.<br>
                             Mezclar el caldo de la lengua con todo el ají rojo, y dejar macerando las rodajas en esta salsa roja y picante. Cocinar el pollo en agua y con las cebollas. Cuando esté bien blando despresarlo, incorporar el ají amarillo junto con las arvejas y pasas, un poco de aceite y vuélvalo a cocinar. <br>
@@ -210,32 +204,30 @@
                               <button href="#" class="hollow button"><img src="img/publicar.png" class="iconoboton" alt="">Publicar</button>                      </div>
                           </div>
 
-
-                          <div class="row" >
-                            <div class="large-12 medium-12 small-7 text-center">
-                              <div class="row bordes_mensajes align-spaced">
-                                  <div class="large-2 medium-2">
+                          <div class="row centrar2">
+                            <div class="large-12 medium-12 small-12 text-center">
+                              <div class="row bordes_mensajes">
+                                  <div class="large-2 medium-2 small-2">
                                     <img src="img/hombre.png" class="imagen" alt="">
                                   </div>
                                   <div class="">
-
                                   </div>
-                                  <div class="large-8 medium-10 text-left">
+                                  <div class="text-left">
                                     <p>Juan Perez: Muy buen blog </p>
                                   </div>
                               </div>
                               <br>
-                              <div class="row bordes_mensajes align-spaced">
-                                  <div class="large-2 medium-2">
+                              <div class="row bordes_mensajes ">
+                                  <div class="large-2 medium-2 small-2">
                                     <img src="img/mujer.png" class="imagen" alt="">
                                   </div>
-                                  <div class="large-8 medium-10">
+                                  <div class="large-8 medium-10 text-left">
                                     <p>María Torres: Felicidades,es un gran blog </p>
                                   </div>
                               </div>
                               <br>
-                              <div class="row bordes_mensajes align-spaced">
-                                  <div class="large-2 medium-2 text-center">
+                              <div class="row bordes_mensajes">
+                                  <div class="large-2 medium-2 small-2">
                                     <img src="img/mujer.png" class="imagen" alt="">
                                   </div>
                                   <div class="large-8 medium-10 text-left">
@@ -261,6 +253,8 @@
 
 
     </div>   <!-- cerrar contenedor body  -->
+
+    </div>
 
 
     <script src="js/jquery.js"></script>
